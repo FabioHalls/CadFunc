@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container{
+	width: 100%;
+	border: 1px solid gray;
+
+}
+header{
+	padding:1em;
+	color:white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+}
+footer{
+	padding:1em;
+	color:white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+
+}
+</style>
+<title>
+Condominios
+</title>
+<body style="background-color: gray">
+<div class="container">
+	<header>
+<h2>Cadastro Visitantes</h2>
+</header>
+
+</div>
+<form action="/action_page_post.php" method="post">
+     <b>Nome do Visitante : </b><BR>
+     <input type="text" name="" size="60px" required>
+     <br><br>
+     <b>Nome do Inquilino : </b><BR>
+     <input type="text" name="" size="60px">
+     <b>Data Entrada</b> <input type="date" name="data" value="">
+     <b>Data Saida</b> <input type="date" name="data" value="">
+     <br><br>
+     <b>Observacoes</b><br> <textarea name ="Observacoes" cols="50" rows="10">
+     	
+     </textarea>
+     <br><br>
+     <input type="submit"  value="Salvar" required="Preencha os campos">
+     <a href="Cadastro.html">
+     <input type="button" name="Cancelar" value="Cancelar">
+     </a>
+</form>
+<footer><h2> Sua Seguranca nossa prioridade</h2></footer> 
+</body>
+</head>
